@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.hero.is-primary {
+  background-color: #CCAD51 !important;
+  color: #000 !important;
+}
+.hero.is-primary .title {
+  color: #000 !important;
+}
+.tag:not(body).is-primary {
+  background-color: #CCAD51 !important;
+  color: #000 !important;
+}
+.button.is-primary.is-outlined {
+  background-color: transparent;
+  border-color: #CCAD51 !important;
+  color: #CCAD51 !important;
+}
+.button.is-primary.is-outlined:hover, .button.is-primary.is-outlined.is-hovered, .button.is-primary.is-outlined:focus, .button.is-primary.is-outlined.is-focused {
+  background-color: #fff !important;}
+  .notification.is-success {
+    background-color:  #CCAD51 !important;
+    color: #fff;
+}
+.image.is-64x64 {
+  height: 64px;
+  width: 64px;
+  background-image: url(./images/prouduct.png) !important;
+}
+.button.is-success {
+  background-color:  #CCAD51 !important;
+  border-color: transparent;
+  color: #fff;
+}
